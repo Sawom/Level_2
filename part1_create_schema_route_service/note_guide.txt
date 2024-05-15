@@ -1,0 +1,29 @@
+#coding serial:
+** interface, schema, model, db query(find , update query etc)
+** route, controller
+** service
+
+express mongoose with js:
+schema, model, db query(find , update query etc)
+
+express mongoose with ts:
+interface, schema, model, db query(find , update query etc)
+
+***************
+routes,controller, service
+
+** client theke request ta route e hit hobe.
+** route controller function k call dibe.
+** controller service function k call dibe.
+** service business logic handle korbe.
+
+service model theke query calay database theke data ene controller k dibe.
+controller response hisebe client k data diye dibe.
+//// client theke route e hit hobe, route create data function k call dibe. then service function k call dibe. service db te zeye data k create korbe.////
+
+** schema route er por postman theke dami data mongodb te postman diye send korar cesta korbo.
+
+*****after all setting => interface, schema, model, db query.... then => route, controller, service*****
+*****code pattern*****
+**service, controller, route, 
+ 
